@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imagen-logo{
+    position: inherit;
+    top: 33px;
+    left: 100px;
+    width: 129px;
+    height: 30px;
+}
+
+.contenedor-header{
+    background-color:transparent;
+    width: 1366px;
+    height: 96px;
+    display: flex;
+    position: absolute;
+}
+
+.ul-list{
+    padding-left: 810.5px;
+    top: 38px;
+    height: 96px;
+    position: absolute;
+}
+
+.ul-list li{
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+    padding: 1rem;
+}
+
+.ul-list li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #151515;
+}
+
+.ul-list li a:hover{
+    color: black;
+    zoom: 110%;
+}
+
+

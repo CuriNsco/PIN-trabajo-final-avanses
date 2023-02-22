@@ -1,0 +1,109 @@
+*{
+  width: 0;
+  padding: 0;
+}
+
+                /* contenedor prinipal, foto primera fondo, primer div*/
+
+
+
+
+.contenedor1 img{ /*Imagen de montanas*/
+  width: 1366px;
+  height: 768px;
+}
+
+.h1-principio{   /* titulo principal del primer div*/
+  color: black;
+  top: 254px;
+  left: 101px;
+  width: 554px;
+  height: 115px;
+  position: absolute;
+  text-align: left;
+  font:600 48px/48px ;
+  font-size: 48px;
+  letter-spacing: 0.67px;
+  opacity: 1;
+}
+
+.seudo-titulo{   /* seudo titulo que esta abajo del titulo principal*/
+  color: black;
+  top: 399px;
+  left: 101px;
+  width: 343px;
+  height: 42px;
+  letter-spacing: 0.22px;
+  font-size: 16px;
+  position: absolute;
+}
+
+.boton-divmain{  /* boton FALTA DARLE LA UTILIDAD CON PROPS*/
+  position: absolute;
+  top: 480px;
+  left: 101px;
+  width: 144px;
+  height: 48px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  border-style: none;
+}
+
+.boton-divmain:hover{  /* efecto del boton cuando le pasas el mouse por arriba*/
+  border-style: double;
+  box-shadow: #252525 3px 3px 3px 3px;
+}
+
+
+
+
+
+                                /* SEGUNDA SECCION */
+
+
+
+.segundo-div{                  /*segundo div, el contenedor de toda la segunda seccion*/
+  background-color: #FFFFFF;
+  top: 768px;
+  left: 0px;
+  width: 1366px;
+  height: 672px;
+  position: absolute;
+}
+
+.solapa{       /*solapa roja que esta en el segundi div*/
+  top: 912px;
+  left: 0px;
+  width: 32px;
+  height: 384px;
+  background-color: #b9d0fc; /* codigo de color igual al cielo de la imagen principal de la pagina*/
+  position: absolute;
+}
+
+.h2-segundo-div{   /*TITULO PRINCIPAL DE LA SEGUNDA SECCION*/
+  color: #151515;
+  letter-spacing: 0.55px;
+  font-size: 39px;
+  top: 167px;
+  left: 299px;
+  width: 402px;
+  height: 55px;
+  position: absolute;
+}
+
+.h2-segundo-div span{   /*Segunda parte del titulo que es de otro color*/
+  color: #b9d0fc;    /* codigo de color igual al cielo de la imagen principal de la pagina*/
+}
+
+.parrafo-segundodiv{   /*parrafo segundo div*/
+  color: #151515;
+  position: absolute;
+  top: 1079px;
+  left: 299px;
+  width: 768px;
+  height: 197px;
+  letter-spacing: 0.22px;
+  font-size: 16px;
+}
